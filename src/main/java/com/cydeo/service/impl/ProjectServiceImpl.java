@@ -200,6 +200,8 @@ public class ProjectServiceImpl implements ProjectService {
 
         //TODO Retrieve the completed and non-completed task counts from task-service
 
+        // we are gonna need to add openfeign dependency (from task-service) here
+
         return new ProjectDTO();
 
     }
